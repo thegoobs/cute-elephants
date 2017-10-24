@@ -1,0 +1,21 @@
+.hero.is-primary.is-fullheight
+  .hero-body.has-text-centered
+    .container.headline
+      %h1.title Cute Elephants
+      %h3.subtitle At the touch of a button.
+      .container
+        %img.media#image{:src=>'#',
+                 :width=>'500px'}
+        %br/
+        %button.button.is-light{:onclick=>'loadImage()'} Again!
+  .hero-footer
+    .container.has-text-centered
+      %ul
+        %li
+          %p
+            Made with
+            %i.fa.fa-heart.space
+            by
+            %a{:href=>'http://www.guthrieschoolar.com', :target=>'_blank'} Guthrie Schoolar
+
+      
